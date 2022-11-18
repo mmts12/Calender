@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.header-days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.calender-header-day{
+  border: 1px black dashed;
+  padding: 10px;
+  background-color: rgb(50, 145, 255);
+
+}
+.days-in-month{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(5,300px);
+}
+.day{
+  padding: 10px;
+  border: 1px solid black;
+}
