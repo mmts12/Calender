@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import { calenderServise } from './services/calenderService';
@@ -24,27 +23,12 @@ function App() {
 
   const getDaysNumberInMonth = () => {
     // const getDays = (year, month) => new Date(year, month, 0).getDate()
-
-    // for (let i=0 ; i<12 ;i++){
-    //   console.log(daysArray[i].days);
-    //   daysArray[i]['days'] = getDays(2022, i);
-    // }
-
-    // setDaysInMonthArray(daysArray);
     // const month = new Date().getMonth()
-    // console.log(month)
-
-    // console.log('2022',daysArray);
   }
 
   const getFirstDayInMonth = () => {
 
   }
-
-
-
-
-
 
   return (
     <div className="App">
