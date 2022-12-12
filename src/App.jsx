@@ -30,14 +30,22 @@ function App() {
 
   }
 
+  const renderDays = () =>{
+    
+  }
+
+
+
+
+
   return (
-    <div className="App">
+    <div className="app">
       {console.log(new Date().getDay())}
       <h1>Calender</h1>
       <div className='calender-container'>
       
           <div className='header-days'> {daysInWeek.map((day) => <div className='calender-header-day' key={day}>{day}</div>)}</div>
-          <div className='days-in-month'>{daysInMonthArray.map((day, index) => <div className='day' key={index}>{day}</div>)} </div>
+          <div className='days-in-month'>{[...Array(31)].map((day, index) => <div className='day' key={index}>{index+1}</div>)} </div>
        
 
       </div>
