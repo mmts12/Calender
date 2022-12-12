@@ -12,3 +12,7 @@ function daysInWeek () {
 function daysInMonth () {
     return ['31','31','28','31','30','31','30','31','31','30','31','30']
 }
+
+function test(){
+
+}
